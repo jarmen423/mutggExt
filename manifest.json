@@ -1,0 +1,21 @@
+{
+   "background": {
+      "service_worker": "background.js"
+   },
+   "description": "Syncs your binder with MUT.GG",
+   "externally_connectable": {
+      "matches": [ "http://localhost:8000/*", "*://www.mut.gg/*" ]
+   },
+   "host_permissions": [ "http://127.0.0.1/*", "https://www.mut.gg/*" ],
+   "icons": {
+      "16": "favicon-16.png",
+      "32": "favicon-32.png",
+      "48": "favicon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi02IWerRPT3mFNlDKhwfa4+CMW7OD/TXtRumJ/HDhOo6AnxkqEIkxp/dH3Udn2cus//ThzioFqzs7hfSPL4wZTCmE6/DNKiwsppvfYtO3r5JlwU5yNjCWwaCuQptbBZ4TDCTYKtmxAUNp9lhe2Ahkk2Z2EFSpogz9ufqFC+wK/fye7ADTp8S+w5S4TLYsycNaKjunIYictmAihvePbPqCAXxRVwdlCWB9lRewQ4gIyuX7/T8QSpUucmHryRCqzezH7wk/hK9P7n3DnwmgJ+QbzF1l7v4qAnmTDmT3G8/veln5ohbkjmt7Gg9vZt7fY4QKHnDQBVVgQJuIjTFpO1r9QIDAQAB",
+   "manifest_version": 3,
+   "name": "MUT.GG Binder Sync",
+   "permissions": [ "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}
